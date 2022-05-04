@@ -1,3 +1,7 @@
+body {
+  height: 100vh;
+}
+
 .side-wrapper {
   height: 500px;
   background-color: #055384;

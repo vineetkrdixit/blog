@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../Home/Home.css";
 import ProfilePic from "../../assets/images/profile.webp";
+
 const Home = () => {
   const [subInitial, SetSubscribe] = useState("Subscribe");
   const [subCount, SetsubCount] = useState(1031083);
@@ -11,7 +12,7 @@ const Home = () => {
   };
   return (
     <>
-      <div className="container">
+      <div className="container ">
         <div className="row">
           <div className="col-sm-3 left-side">
             <div className="side-wrapper">
@@ -19,7 +20,6 @@ const Home = () => {
               <div className="profile-pic-div">
                 <img className="side-wrapper-profile-pic" src={ProfilePic} />
               </div>
-
               <div className="side-wrapper-other">
                 <strong>
                   <i className="fa fa-user" aria-hidden="true">
@@ -28,7 +28,8 @@ const Home = () => {
                   Jack Carter
                 </strong>
                 <strong>
-                  <i class="fa fa-envelope">&nbsp;&nbsp;&nbsp;</i>Jack@gmail.com
+                  <i class="fa fa-envelope">&nbsp;&nbsp;&nbsp;</i>
+                  Jack@gmail.com
                 </strong>
                 <strong>
                   <i class="fa-solid fa-phone">&nbsp;&nbsp;&nbsp;</i>
@@ -55,9 +56,9 @@ const Home = () => {
                 <br></br>
                 <div className="author-body">
                   <div>
-                    <h4>
-                      <i class="fa-solid fa-thumbs-up"></i>&nbsp;Like
-                    </h4>
+                    <h5>
+                      <i class="fa-solid fa-thumbs-up"></i>&nbsp;256
+                    </h5>
                   </div>
                   <div className="middle-blog-body-author">
                     By Author Name<br></br>Date of post
@@ -70,9 +71,9 @@ const Home = () => {
                 <br></br>
                 <div className="author-body">
                   <div>
-                    <h4>
-                      <i class="fa-solid fa-thumbs-up"></i>&nbsp;Like
-                    </h4>
+                    <h5>
+                      <i class="fa-solid fa-thumbs-up"></i>&nbsp;246
+                    </h5>
                   </div>
                   <div className="middle-blog-body-author">
                     By Author Name<br></br>Date of post

@@ -1,14 +1,16 @@
 import React from "react";
 import "../header/Header.css";
 import logo from "../../assets/images/blogo.png";
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark navColor">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <img src={logo} />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -31,9 +33,9 @@ const Header = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link className="nav-link" to="/Blogs">
                   Blog
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
