@@ -1,0 +1,101 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "poppins";
+}
+.fullbody {
+  background: url(../../assets/images/contactus.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.contactus-header {
+  text-align: center;
+  padding: 20px;
+}
+.contactus-header h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+}
+.contactus-header p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.meetus {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+.contactusbody {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contactusbody .contactus-Details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 150px;
+}
+.contactusbody .contactus-Details .box {
+  display: flex;
+  flex-direction: row;
+}
+.contactusbody .contactus-Details .box .icon {
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 17px;
+  border-radius: 50%;
+}
+.text h5 {
+  color: #180070;
+  font-weight: 550;
+  font-size: 20px;
+}
+.text p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: monospace;
+}
+.contactus-form {
+  display: flex;
+  justify-content: center;
+}
+.contactForm {
+  background-color: rgb(252, 252, 252);
+  height: 100%;
+  width: 70%;
+  border-radius: 10px;
+  text-align: center;
+}
+.contact-form {
+  position: relative;
+  padding: 50px;
+  width: 100%;
+}
+
+textarea {
+  padding: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+.form-label {
+  font-weight: 700;
+  font-size: 15px;
+}
+.form-control-plaintext {
+  padding: 5px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  background-color: #fff;
+}
