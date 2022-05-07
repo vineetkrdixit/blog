@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Aboutus from "./components/Aboutus/Aboutus";
 import Contactus from "./components/Contactus/Contactus";
 import Blogs from "./components/Blogs/Blogs";
+import FullblogBody from "./components/FullblogBody/FullblogBody";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/Aboutus" element={<Aboutus />}></Route>
           <Route path="/Contactus" element={<Contactus />}></Route>
           <Route path="/Blogs" element={<Blogs />}></Route>
+          <Route path="/blog" element={<FullblogBody />}></Route>
         </Routes>
         {/* <Footer /> */}
       </Router>

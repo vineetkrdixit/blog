@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../Blogs/Blogs.css";
+import FullblogBody from "../FullblogBody/FullblogBody";
 
 export default function Blogs() {
   return (
     <div>
       <div className="container">
-        <Link to="" className="blogbox-link">
+        <Link to="/blog" className="blogbox-link">
           <div className="row">
             <div className="col-sm-1"></div>
 
@@ -39,7 +40,7 @@ export default function Blogs() {
         </Link>
       </div>
       <div className="container">
-        <Link to="" className="blogbox-link">
+        <Link to="/blog" className="blogbox-link">
           <div className="row">
             <div className="col-sm-1"></div>
             <div className="col-sm-10 blogbox">
@@ -70,7 +71,7 @@ export default function Blogs() {
         </Link>
       </div>
       <div className="container">
-        <Link to="" className="blogbox-link">
+        <Link to="/blog" className="blogbox-link">
           <div className="row">
             <div className="col-sm-1"></div>
             <div className="col-sm-10 blogbox">

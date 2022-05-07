@@ -12,7 +12,7 @@ const Home = () => {
   };
   return (
     <>
-      <div className="container ">
+      <div className="container">
         <div className="row">
           <div className="col-sm-3 left-side">
             <div className="side-wrapper">
